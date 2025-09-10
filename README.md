@@ -1,16 +1,13 @@
-## Hi there 👋
+# Dark Nation | Competitive Clan Systems
 
-<!--
-**DarkNationClanSystems/DarkNationClanSystems** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Willkommen bei **Dark Nation**, dem ultimativen kompetitiven Clan-Netzwerk für **Brawl Stars**, **Clash Royale** und **Clash of Clans**.
 
-Here are some ideas to get you started:
+## Über uns
+Wir sind eine engagierte Competitive-Clan-Community, die ein Ranglistensystem nutzt, das **Fähigkeit, Einsatz und Teamwork** belohnt. Unsere Admins sind aktiv auf **Twitch** und **YouTube**, teilen ihre Expertise und wettkampferprobtes Gameplay mit der Community.  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Unsere Clan-Struktur ist eng mit **Discord** integriert, sodass Kommunikation, Koordination und Aufstieg durch die Ränge einfach möglich sind. Ob du deine Skills verbessern, an Turnieren teilnehmen oder einfach Teil einer leidenschaftlichen Gaming-Community sein willst – **Dark Nation** ist der richtige Ort.
+
+## Ranglisten
+- **Brawl Stars:** Top 5 Spieler  
+- **Clash Royale:** Top 5 Spieler  
+- **Clash of Clans:** Top 5 Spieler

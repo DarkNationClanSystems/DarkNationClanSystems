@@ -42,8 +42,8 @@
         padding: 15px;
         border-radius: 8px;
         display: flex;
-        align-items: center;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         font-size: 1.2em;
         font-weight: bold;
         border-left: 6px solid #ff4c00;
@@ -52,16 +52,22 @@
     .rank:hover {
         transform: scale(1.05);
     }
+    .rank-header {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 5px;
+    }
     .rank-number {
         font-size: 1.5em;
         color: #ff4c00;
-        margin-right: 15px;
     }
-    .clan-tag {
-        text-align: center;
-        font-size: 1.1em;
-        color: #ff9500;
-        margin-bottom: 20px;
+    .rank-name {
+        font-size: 1.2em;
+    }
+    .rank-points {
+        font-size: 0.9em;
+        color: #ffb347;
     }
     .welcome-text {
         text-align: center;
@@ -84,32 +90,75 @@
 
         <h2>Brawl Stars</h2>
         <div class="rank-list">
-            <div class="rank"><span class="rank-number">1</span> XXXXX</div>
-            <div class="rank"><span class="rank-number">2</span> XXXXX</div>
-            <div class="rank"><span class="rank-number">3</span> XXXXX</div>
-            <div class="rank"><span class="rank-number">4</span> XXXXX</div>
-            <div class="rank"><span class="rank-number">5</span> XXXXX</div>
+            <div class="rank">
+                <div class="rank-header"><span class="rank-number">1</span><span class="rank-name">XXXXX</span></div>
+                <div class="rank-points">Reached ## Points in the Tournament</div>
+            </div>
+            <div class="rank">
+                <div class="rank-header"><span class="rank-number">2</span><span class="rank-name">XXXXX</span></div>
+                <div class="rank-points">Reached ## Points in the Tournament</div>
+            </div>
+            <div class="rank">
+                <div class="rank-header"><span class="rank-number">3</span><span class="rank-name">XXXXX</span></div>
+                <div class="rank-points">Reached ## Points in the Tournament</div>
+            </div>
+            <div class="rank">
+                <div class="rank-header"><span class="rank-number">4</span><span class="rank-name">XXXXX</span></div>
+                <div class="rank-points">Reached ## Points in the Tournament</div>
+            </div>
+            <div class="rank">
+                <div class="rank-header"><span class="rank-number">5</span><span class="rank-name">XXXXX</span></div>
+                <div class="rank-points">Reached ## Points in the Tournament</div>
+            </div>
         </div>
 
         <h2>Clash Royale</h2>
         <div class="rank-list">
-            <div class="rank"><span class="rank-number">1</span> XXXXX</div>
-            <div class="rank"><span class="rank-number">2</span> XXXXX</div>
-            <div class="rank"><span class="rank-number">3</span> XXXXX</div>
-            <div class="rank"><span class="rank-number">4</span> XXXXX</div>
-            <div class="rank"><span class="rank-number">5</span> XXXXX</div>
+            <div class="rank">
+                <div class="rank-header"><span class="rank-number">1</span><span class="rank-name">XXXXX</span></div>
+                <div class="rank-points">Reached ## Points in the Clan War</div>
+            </div>
+            <div class="rank">
+                <div class="rank-header"><span class="rank-number">2</span><span class="rank-name">XXXXX</span></div>
+                <div class="rank-points">Reached ## Points in the Clan War</div>
+            </div>
+            <div class="rank">
+                <div class="rank-header"><span class="rank-number">3</span><span class="rank-name">XXXXX</span></div>
+                <div class="rank-points">Reached ## Points in the Clan War</div>
+            </div>
+            <div class="rank">
+                <div class="rank-header"><span class="rank-number">4</span><span class="rank-name">XXXXX</span></div>
+                <div class="rank-points">Reached ## Points in the Clan War</div>
+            </div>
+            <div class="rank">
+                <div class="rank-header"><span class="rank-number">5</span><span class="rank-name">XXXXX</span></div>
+                <div class="rank-points">Reached ## Points in the Clan War</div>
+            </div>
         </div>
 
         <h2>Clash of Clans</h2>
         <div class="rank-list">
-            <div class="rank"><span class="rank-number">1</span> XXXXX</div>
-            <div class="rank"><span class="rank-number">2</span> XXXXX</div>
-            <div class="rank"><span class="rank-number">3</span> XXXXX</div>
-            <div class="rank"><span class="rank-number">4</span> XXXXX</div>
-            <div class="rank"><span class="rank-number">5</span> XXXXX</div>
+            <div class="rank">
+                <div class="rank-header"><span class="rank-number">1</span><span class="rank-name">XXXXX</span></div>
+                <div class="rank-points">Reached ## Points in the Clan War</div>
+            </div>
+            <div class="rank">
+                <div class="rank-header"><span class="rank-number">2</span><span class="rank-name">XXXXX</span></div>
+                <div class="rank-points">Reached ## Points in the Clan War</div>
+            </div>
+            <div class="rank">
+                <div class="rank-header"><span class="rank-number">3</span><span class="rank-name">XXXXX</span></div>
+                <div class="rank-points">Reached ## Points in the Clan War</div>
+            </div>
+            <div class="rank">
+                <div class="rank-header"><span class="rank-number">4</span><span class="rank-name">XXXXX</span></div>
+                <div class="rank-points">Reached ## Points in the Clan War</div>
+            </div>
+            <div class="rank">
+                <div class="rank-header"><span class="rank-number">5</span><span class="rank-name">XXXXX</span></div>
+                <div class="rank-points">Reached ## Points in the Clan War</div>
+            </div>
         </div>
-
-        <div class="clan-tag">#XXXXX</div>
     </section>
 </body>
 </html>
